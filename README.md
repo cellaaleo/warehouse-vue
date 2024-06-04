@@ -30,3 +30,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Documentação do yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)
 - [Instalando o Vue CLI](https://cli.vuejs.org/guide/installation.html)
 - [Criando um projeto com Vue CLI](https://cli.vuejs.org/guide/creating-a-project.html#vue-create)
+- [Manipulando componentes](https://v2.vuejs.org/v2/guide/#Composing-with-Components)
