@@ -31,3 +31,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Instalando o Vue CLI](https://cli.vuejs.org/guide/installation.html)
 - [Criando um projeto com Vue CLI](https://cli.vuejs.org/guide/creating-a-project.html#vue-create)
 - [Manipulando componentes](https://v2.vuejs.org/v2/guide/#Composing-with-Components)
+- [Documentação do Vue Router](https://router.vuejs.org/)
+- [History_API](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
