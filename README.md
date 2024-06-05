@@ -34,3 +34,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Documentação do Vue Router](https://router.vuejs.org/)
 - [History_API](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
 - [Trabalhando com o <router-link>](https://router.vuejs.org/guide/advanced/extending-router-link.html#extending-routerlink)
+- [Manipulando método http.get com vue-resource](https://github.com/pagekit/vue-resource/blob/develop/docs/http.md)
+- [Ciclo de vida mounted em Vue.js](https://v2.vuejs.org/v2/api/#mounted)
