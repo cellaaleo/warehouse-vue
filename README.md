@@ -33,3 +33,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Manipulando componentes](https://v2.vuejs.org/v2/guide/#Composing-with-Components)
 - [Documentação do Vue Router](https://router.vuejs.org/)
 - [History_API](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
+- [Trabalhando com o <router-link>](https://router.vuejs.org/guide/advanced/extending-router-link.html#extending-routerlink)
