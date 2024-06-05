@@ -36,3 +36,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Trabalhando com o <router-link>](https://router.vuejs.org/guide/advanced/extending-router-link.html#extending-routerlink)
 - [Manipulando método http.get com vue-resource](https://github.com/pagekit/vue-resource/blob/develop/docs/http.md)
 - [Ciclo de vida mounted em Vue.js](https://v2.vuejs.org/v2/api/#mounted)
+- [Documentação sobre a tag <table> do HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
+- [Documentação da tag <thead>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead)
+- [Documentação da tag <tbody>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody)
