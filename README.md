@@ -44,3 +44,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Manipulando método http.post com vue-resource](https://github.com/pagekit/vue-resource/blob/develop/docs/http.md#methods)
 - [Função toLowerCase](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
 - [Função find](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+
+Vuetify
+- [Documentação do Vuetify](https://v2.vuetifyjs.com/en/)
+- [Instalando o Vuetify](https://v2.vuetifyjs.com/en/getting-started/installation/)
+- [Manipulando menus com Vuetify](https://vuetifyjs.com/en/components/menus/)
+- [Material Design](https://m3.material.io/)
