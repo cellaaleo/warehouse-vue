@@ -42,3 +42,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Manipulando Propriedades em Vue.js (props)](https://v2.vuejs.org/v2/guide/components-props.html#ad)
 - [Documentação da diretiva v-model](https://v2.vuejs.org/v2/api/#v-model)
 - [Manipulando método http.post com vue-resource](https://github.com/pagekit/vue-resource/blob/develop/docs/http.md#methods)
+- [Função toLowerCase](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
+- [Função find](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
