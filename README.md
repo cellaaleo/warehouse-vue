@@ -39,3 +39,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Documentação sobre a tag <table> do HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
 - [Documentação da tag <thead>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead)
 - [Documentação da tag <tbody>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody)
+- [Manipulando Propriedades em Vue.js (props)](https://v2.vuejs.org/v2/guide/components-props.html#ad)

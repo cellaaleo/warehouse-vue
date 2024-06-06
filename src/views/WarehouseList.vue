@@ -1,27 +1,27 @@
 <template>
   <div>
     <h1>Galpões cadastrados</h1>
-
-    <table border="1px">
-      <thead>
-        <th>Código</th>
-        <th>Nome</th>
-        <th>Sigla</th>
-      </thead>
-      <tbody>
-        <tr v-for="w in warehouses" :key="w.code">
-          <td>{{ w.id }}</td>
-          <td>{{ w.name }}</td>
-          <td>{{ w.code }}</td>
-        </tr>
-      </tbody>
-    </table>
+    <div v-for="w in warehouses" :key="w.id">
+      <Warehouse
+        :id      = "w.id"
+        :name    = "w.name"
+        :code    = "w.code"
+        :address = "w.address"
+        :city    = "w.city"
+        :area    = "w.area"
+      />
+    </div>
   </div>
 </template>
 
 <script>
+import Warehouse from "../components/Warehouse.vue";
+
 export default {
   name: 'WarehouseList',
+  components:{
+    Warehouse
+  },
 
   data(){
     return{
