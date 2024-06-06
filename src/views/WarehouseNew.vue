@@ -36,7 +36,9 @@
           <input type="number" v-model="form.area">
         </div>
         <div class="form">
-          <button v-on:click="postWarehouse">Cadastrar</button>
+          <v-btn text color="grey">
+            <button v-on:click="postWarehouse">Cadastrar</button>
+          </v-btn>
         </div>
       </form>
     </div>

@@ -50,3 +50,8 @@ Vuetify
 - [Instalando o Vuetify](https://v2.vuetifyjs.com/en/getting-started/installation/)
 - [Manipulando menus com Vuetify](https://vuetifyjs.com/en/components/menus/)
 - [Material Design](https://m3.material.io/)
+- [Documentação <v-container>](https://v2.vuetifyjs.com/en/components/grids/#v-container)
+- [Documentação <v-row>](https://v2.vuetifyjs.com/en/components/grids/#v-row)
+- [Documentação <v-col>](https://v2.vuetifyjs.com/en/components/grids/#v-col)
+- [Manipulando formulários com Vuetify](https://vuetifyjs.com/en/components/forms/#usage)
+- [Manipulando Alertas com Vuetify](https://vuetifyjs.com/en/components/alerts/)
