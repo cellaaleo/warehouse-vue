@@ -4,43 +4,18 @@
 
     <div class="container">
 
-      <div class="msg">{{ msg }}</div>
+      <v-alert v-if="msg != null" type="info">{{ msg }}</v-alert type="info">
 
-      <form v-on:submit.prevent>
-        <div class="form">
-          <label for="">Nome: </label>
-          <input type="text" v-model="form.name" placeholder="nome do galpão">
-        </div>
-        <div class="form">
-          <label for="">Código: </label>
-          <input type="text" v-model="form.code" placeholder="código do galpão">
-        </div>
-        <div class="form">
-          <label for="">Endereço: </label>
-          <input type="text" v-model="form.address" placeholder="endereço">
-        </div>
-        <div class="form">
-          <label for="">Cidade: </label>
-          <input type="text" v-model="form.city" placeholder="cidade">
-        </div>
-        <div class="form">
-          <label for="">CEP: </label>
-          <input type="text" v-model="form.cep" placeholder="cep">
-        </div>
-        <div class="form">
-          <label for="">Descrição: </label>
-          <textarea cols="30" rows="5" v-model="form.description"></textarea>
-        </div>
-        <div class="form">
-          <label for="">Área m²: </label>
-          <input type="number" v-model="form.area">
-        </div>
-        <div class="form">
-          <v-btn text color="grey">
-            <button v-on:click="postWarehouse">Cadastrar</button>
-          </v-btn>
-        </div>
-      </form>
+      <v-form v-on:submit.prevent>
+        <v-text-field label="Nome:"       v-model="form.name"></v-text-field>
+        <v-text-field label="Código:"     v-model="form.code"></v-text-field>
+        <v-text-field label="Endereço:"   v-model="form.address"></v-text-field>
+        <v-text-field label="Cidade:"     v-model="form.city"></v-text-field>
+        <v-text-field label="CEP:"        v-model="form.cep"></v-text-field>
+        <v-text-field label="Área (m²):"        v-model="form.area"></v-text-field>
+        <v-textarea label="Descrição:"  v-model="form.description"></v-textarea>
+        <v-btn v-on:click="postWarehouse" color="secondary">Cadastrar</v-btn>
+      </v-form>
     </div>
   </div>
 </template>
@@ -93,16 +68,4 @@
 
 
 <style>
-  .msg {
-    color: darkblue;
-    margin-bottom: 15px;
-  }
-
-  .form {
-    margin-bottom: 15px;
-  }
-
-  .form input {
-    margin: 5px;
-  }
 </style>
