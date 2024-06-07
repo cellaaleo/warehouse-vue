@@ -1,0 +1,33 @@
+<template>
+  <v-simple-table>
+    
+      <thead>
+        <tr>
+          <th class="text-center">Código</th>
+          <th class="text-center">Nome</th>
+          <th class="text-center">Endereço</th>
+          <th class="text-center">Cidade</th>
+          <th class="text-center">Área</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="w in warehouses" :key="w.id">
+          <td>{{ w.code }}</td>
+          <td>{{ w.name }}</td>
+          <td>{{ w.address }}</td>
+          <td>{{ w.city }}</td>
+          <td>{{ w.area }}</td>
+        </tr>
+      </tbody>
+    
+  </v-simple-table>
+</template>
+
+<script>
+export default {
+  name: 'WarehouseTable',
+  props:{
+    warehouses:[]
+  }
+}
+</script>
